@@ -9,6 +9,7 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 # Suppported Hosts & Schema
 
 - Amazon Cloudrive: `https://www.amazon.com/clouddrive/share/uTa9DESz4iQ6tqQRpS7xFE1WizJKa2pwQPXUs91ZC0g`
+- AmdaHost: `https://www.amdahost.com/watch.php?id=b18cfd5115`
 
 ## How To Use
 

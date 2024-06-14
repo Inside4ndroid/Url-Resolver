@@ -9,14 +9,10 @@ export async function Amazon(url) {
     try {
         const { mediaId } = extractHostAndMediaId(url);
         const webUrl = `https://www.amazon.com/drive/v1/shares/${mediaId}?shareId=${mediaId}&resourceVersion=V2&ContentType=JSON&_=${Date.now()}`
-        console.log(webUrl);
         const nodeInfo = await fetchJson(webUrl, headers);
-        console.log(nodeInfo);
         const nodeId = nodeInfo.nodeInfo.id;
         const nodeUrl = `https://www.amazon.com/drive/v1/nodes/${nodeId}/children?asset=ALL&tempLink=true&limit=1&searchOnFamily=false&shareId=${mediaId}&offset=0&resourceVersion=V2&ContentType=JSON&_=${Date.now()}`;
-        console.log(nodeUrl);
         const sourceInfo = await fetchJson(nodeUrl, headers);
-        console.log(sourceInfo);
         const source = sourceInfo.data[0].tempLink;
 
         if (source) {
@@ -26,13 +22,13 @@ export async function Amazon(url) {
             return { data: data };
         } else {
             const data = {
-                Error: 'Something went wrong!'
+                Error: 'ERROR: Amazon-0000'
             };
             return { data: data };
         }
     } catch (error) {
         const data = {
-            Error: 'Something went wrong!'
+            Error: 'ERROR: Amazon-0001'
         };
         return { data: data };
     }
