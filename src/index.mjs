@@ -19,10 +19,16 @@ app.get('/', async (req, res) => {
                 res.status(500).send({ error: error.message });
             }
         } else {
-            res.send('ERROR 01');
+            const data = {
+                Error: 'Something went wrong!'
+            };
+            res.send({ data: data });
         }
     } else {
-        res.send('ERROR 02');
+        const data = {
+            Error: 'Something went wrong!'
+        };
+        res.send({ data: data });
     }
 });
 
