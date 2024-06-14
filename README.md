@@ -6,13 +6,17 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 
 ---
 
-# hosts.json
+# Suppported Hosts & Schema
 
-- In this file you will find all the supported hosts and supported url schema
+- Amazon Cloudrive: `https://www.amazon.com/clouddrive/share/uTa9DESz4iQ6tqQRpS7xFE1WizJKa2pwQPXUs91ZC0g`
 
 ## How To Use
 
-- Coming soon
+- Clone Repo: `git clone https://github.com/Inside4ndroid/Url-Resolver.git`
+- Goto Directory: `cd Url-Resolver`
+- Install: `npm install`
+- Run: `npm run start` or `npm run dev`
+- Open `http://your-ip-or-domain.com:3000?url=your url to be resolved`
 
 ## Get in Touch
 
