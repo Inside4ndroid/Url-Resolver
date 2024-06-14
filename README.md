@@ -10,6 +10,8 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 
 - Amazon Cloudrive: `https://www.amazon.com/clouddrive/share/uTa9DESz4iQ6tqQRpS7xFE1WizJKa2pwQPXUs91ZC0g`
 - AmdaHost: `https://www.amdahost.com/watch.php?id=b18cfd5115`
+- Anafast: `https://anafasts.com/q16utme6jlx5.html` or `https://anafasts.com:2096/q16utme6jlx5.html`
+- AniStream: `https://www.ani-stream.com/embed-amwwk9mwpb20.html` or `https://www.ani-stream.com/amwwk9mwpb20`
 
 ## How To Use
 
