@@ -13,7 +13,7 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 - Anafast: `https://anafasts.com/q16utme6jlx5.html` or `https://anafasts.com:2096/q16utme6jlx5.html`
 - AniStream: `https://www.ani-stream.com/embed-amwwk9mwpb20.html` or `https://www.ani-stream.com/amwwk9mwpb20`
 
-## How To Use
+# How To Use
 
 - Clone Repo: `git clone https://github.com/Inside4ndroid/Url-Resolver.git`
 - Goto Directory: `cd Url-Resolver`
@@ -21,7 +21,7 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 - Run: `npm run start` or `npm run dev`
 - Open `http://your-ip-or-domain.com:3000?url=your-url-to-be-resolved`
 
-## Get in Touch
+# Get in Touch
 
 Feel free to reach out! Let's connect and collaborate.
 
@@ -30,7 +30,7 @@ Feel free to reach out! Let's connect and collaborate.
 
 ---
 
-## Hire Me!
+# Hire Me!
 
 👀 Currently FOR HIRE. If you have an interesting opportunity, I'd love to hear about it!
 
