@@ -16,7 +16,7 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 - Goto Directory: `cd Url-Resolver`
 - Install: `npm install`
 - Run: `npm run start` or `npm run dev`
-- Open `http://your-ip-or-domain.com:3000?url=your url to be resolved`
+- Open `http://your-ip-or-domain.com:3000?url=your-url-to-be-resolved`
 
 ## Get in Touch
 
