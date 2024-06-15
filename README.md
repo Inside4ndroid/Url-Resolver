@@ -12,6 +12,8 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 - AmdaHost: `https://www.amdahost.com/watch.php?id=b18cfd5115`
 - Anafast: `https://anafasts.com/q16utme6jlx5.html` or `https://anafasts.com:2096/q16utme6jlx5.html`
 - AniStream: `https://www.ani-stream.com/embed-amwwk9mwpb20.html` or `https://www.ani-stream.com/amwwk9mwpb20`
+- Archive: `https://archive.org/details/splash_20220`
+- BannedVideo: `https://freeworldnews.tv/watch?id=666d742fc00cfdec54432ff0`
 
 # How To Use
 
