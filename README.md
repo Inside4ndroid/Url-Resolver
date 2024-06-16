@@ -28,6 +28,8 @@ These are non working urls and are only examples. Some of the url resolver links
 `https://www.brighteon.com/707d67d9-43cc-4895-aad1-66bd438f5eb`
 ### Brplayer (Requires Returned Headers To Play)
 `https://watch.brplayer.site/watch?v=F4CL1J9`
+### DailyMotion
+`https://www.dailymotion.com/video/x90fc`
 
 # How To Use
 

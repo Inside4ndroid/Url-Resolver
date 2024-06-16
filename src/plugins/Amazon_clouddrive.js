@@ -7,7 +7,7 @@ const headers = {
 
 export async function Amazon(url) {
     try {
-        const { mediaId } = extractHostAndMediaId(url);
+        const { mediaId } = extractMediaId(url);
         const webUrl = `https://www.amazon.com/drive/v1/shares/${mediaId}?shareId=${mediaId}&resourceVersion=V2&ContentType=JSON&_=${Date.now()}`
         const nodeInfo = await fetchJson(webUrl, headers);
         const nodeId = nodeInfo.nodeInfo.id;
@@ -35,7 +35,7 @@ export async function Amazon(url) {
 
 }
 
-function extractHostAndMediaId(url) {
+function extractMediaId(url) {
     const regex = /https:\/\/(www\.amazon\.com)\/clouddrive\/share\/([0-9a-zA-Z]+)/;
     const match = url.match(regex);
 
