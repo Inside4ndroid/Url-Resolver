@@ -8,11 +8,26 @@ Hello! I'm Inside4ndroid, a passionate Software Developer. I love solving proble
 
 # Suppported Hosts & Schema
 
-- Amazon Cloudrive: `https://www.amazon.com/clouddrive/share/uTa9DESz4iQ6tqQRpS7xFE1WizJKa2pwQPXUs91ZC0g`
-- AmdaHost: `https://www.amdahost.com/watch.php?id=b18cfd5115`
-- Anafast: `https://anafasts.com/q16utme6jlx5.html` or `https://anafasts.com:2096/q16utme6jlx5.html`
-- AniStream: `https://www.ani-stream.com/embed-amwwk9mwpb20.html` or `https://www.ani-stream.com/amwwk9mwpb20`
-- Archive: `https://archive.org/embed/splash_20220`
+These are non working urls and are only examples. Some of the url resolver links will return required headers like this :
+
+`{"data":{"file":"playableurl","referer":"required to play url"}}`
+
+### Amazon Cloudrive: 
+`https://www.amazon.com/clouddrive/share/uTa9DESz4iQ6tqQRpS7xFE1WizJKa2pwQPXUs91ZC0g`
+### AmdaHost: 
+`https://www.amdahost.com/watch.php?id=b18cfd5115`
+### Anafast: 
+`https://anafasts.com/q16utme6jlx5.html` or `https://anafasts.com:2096/q16utme6jlx5.html`
+### AniStream: 
+`https://www.ani-stream.com/embed-amwwk9mwpb20.html` or `https://www.ani-stream.com/amwwk9mwpb20`
+### Archive: 
+`https://archive.org/embed/splash_20220`
+### Bitchute: 
+`https://www.bitchute.com/video/wXLamgocEcS`
+### Brighteon
+`https://www.brighteon.com/707d67d9-43cc-4895-aad1-66bd438f5eb`
+### Brplayer (Requires Returned Headers To Play)
+`https://watch.brplayer.site/watch?v=F4CL1J9`
 
 # How To Use
 

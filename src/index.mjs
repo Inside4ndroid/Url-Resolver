@@ -5,6 +5,9 @@ import { AmdaHost } from './plugins/AmdaHost.js';
 import { Anafast } from './plugins/Anafast.js';
 import { AniStream } from './plugins/AniStream.js';
 import { Archive } from './plugins/Archive.js';
+import { Bitchute } from './plugins/Bitchute.js';
+import { Brighteon } from './plugins/Brighteon.js';
+import { Brplayer } from './plugins/Brplayer.js';
 
 dotenv.config();
 const app = express();
@@ -15,6 +18,9 @@ const amdahostRegex = new RegExp(process.env.AMDAHOST_REGEX);
 const anafast = new RegExp(process.env.ANAFAST_REGEX);
 const anistream = new RegExp(process.env.ANISTREAM_REGEX);
 const archive = new RegExp(process.env.ARCHIVE_REGEX);
+const bitchute = new RegExp(process.env.BITCHUTE_REGEX);
+const brighteon = new RegExp(process.env.BRIGHTEON_REGEX);
+const brplayer = new RegExp(process.env.BRPLAYER_REGEX);
 
 app.get('/', async (req, res) => {
     const url = req.query.url;
@@ -33,6 +39,15 @@ app.get('/', async (req, res) => {
             res.send(result);
         } else if(archive.test(url)){
             const result = await Archive(url);
+            res.send(result);
+        } else if(bitchute.test(url)){
+            const result = await Bitchute(url);
+            res.send(result);
+        } else if(brighteon.test(url)){
+            const result = await Brighteon(url);
+            res.send(result);
+        } else if(brplayer.test(url)){
+            const result = await Brplayer(url);
             res.send(result);
         } else {
             const data = {
