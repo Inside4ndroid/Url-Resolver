@@ -13,23 +13,23 @@ These are non working urls and are only examples. Some of the url resolver links
 `{"data":{"file":"playableurl","referer":"required to play url"}}`
 
 ### Amazon Cloudrive: 
-`https://www.amazon.com/clouddrive/share/uTa9DESz4iQ6tqQRpS7xFE1WizJKa2pwQPXUs91ZC0g`
+`http://your-ip-or-domain.com:3000?url=https://www.amazon.com/clouddrive/share/media-id`
 ### AmdaHost: 
-`https://www.amdahost.com/watch.php?id=b18cfd5115`
+`http://your-ip-or-domain.com:3000?url=https://www.amdahost.com/watch.php?id=media-id`
 ### Anafast: 
-`https://anafasts.com/q16utme6jlx5.html` or `https://anafasts.com:2096/q16utme6jlx5.html`
+`http://your-ip-or-domain.com:3000?url=https://anafasts.com/media-id.html` or `http://your-ip-or-domain.com:3000?url=https://anafasts.com:2096/media-id.html`
 ### AniStream: 
-`https://www.ani-stream.com/embed-amwwk9mwpb20.html` or `https://www.ani-stream.com/amwwk9mwpb20`
+`http://your-ip-or-domain.com:3000?url=https://www.ani-stream.com/embed-media-id.html` or `http://your-ip-or-domain.com:3000?url=https://www.ani-stream.com/media-id`
 ### Archive: 
-`https://archive.org/embed/splash_20220`
+`http://your-ip-or-domain.com:3000?url=https://archive.org/embed/media-id`
 ### Bitchute: 
-`https://www.bitchute.com/video/wXLamgocEcS`
+`http://your-ip-or-domain.com:3000?url=https://www.bitchute.com/video/media-id`
 ### Brighteon
-`https://www.brighteon.com/707d67d9-43cc-4895-aad1-66bd438f5eb`
+`http://your-ip-or-domain.com:3000?url=https://www.brighteon.com/media-id`
 ### Brplayer (Requires Returned Headers To Play)
-`https://watch.brplayer.site/watch?v=F4CL1J9`
+`http://your-ip-or-domain.com:3000?url=https://watch.brplayer.site/watch?v=media-id`
 ### DailyMotion
-`https://www.dailymotion.com/video/x90fc`
+`http://your-ip-or-domain.com:3000?url=https://www.dailymotion.com/video/media-id`
 
 # How To Use
 
